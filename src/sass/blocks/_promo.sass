@@ -1,0 +1,23 @@
+.promo
+    padding-top: 205px
+    min-height: 100vh
+    position: relative
+    background: url('../img/main_bg.jpg') no-repeat 50%/cover
+    &__buttons
+        width: 250px
+        margin-top: 25px
+        display: flex
+        align-items: center
+        justify-content: space-between
+    &__link
+        font-weight: 700
+        font-size: 14px
+        text-decoration: none
+        color: #000
+        &:hover
+            color: #000
+    &__subtitle
+        padding-left: 10px
+        position: relative
+        z-index: 2
+        @include before_circle
