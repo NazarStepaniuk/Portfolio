@@ -29,3 +29,34 @@
             font-weight: 500
             font-size: 12px
             line-height: 18px
+    &__ratings
+        display: grid
+        margin-top: 125px
+        grid-template-columns: repeat(3, 350px)
+        grid-template-rows: repeat(2, 62px)
+        row-gap: 38px
+        column-gap: 45px
+        &__wrapper
+            display: flex
+            justify-content: space-between
+        &-item
+            &__title
+                padding-left: 13px
+                position: relative
+                @include before-circle
+                &::before
+                    top: -8px
+            &__value
+                font-weight: 500
+                font-size: 14px
+            &__line
+                margin-top: 27px
+                width: 350px
+                height: 14px
+                background-color: #E8E4DE
+                border-radius: 4px
+                span
+                    display: block
+                    height: 100%
+                    background-color: $main-color
+                    border-radius: 4px
