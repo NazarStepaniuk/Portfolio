@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif
+}
+
+header {
+    position: relative;
+    height: 50px
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: #212121;
+    z-index: 2
+}
+
+.menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 13px
+}
+
+.menu .menu_link {
+    font-weight: 300;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none
+}
+
+.menu .menu_item {
+    border-right: 2px dotted #000;
+    padding-right: 55px
+}
+
+.subheader {
+    height: 8px;
+    background-color: rgba(0, 0, 0, .6)
+}
+
+.subheader .subheader_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 15px
+}
+
+.subheader .subheader_official {
+    margin-top: 5px;
+    font-weight: 100;
+    font-size: 13px;
+    color: #fff;
+    opacity: .7
+}
+
+.subheader .subheader_call {
+    font-weight: 300;
+    font-size: 12px;
+    text-align: right;
+    color: #fff;
+    margin-top: 25px
+}
+
+.subheader .subheader_phone {
+    display: block;
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 12px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #fff
+}
+
+.subheader .subheader_btn {
+    margin-top: 25px;
+    width: 162px;
+    height: 46px;
+    background: -webkit-gradient(linear, left bottom, left top, from(#1EACC7), to(#4CE2FF));
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    -webkit-box-shadow: inset 0px -3px 0px rgba(0, 0, 0, .12);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, .12);
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, .21)
+}
+
+.promo {
+    min-height: 800px;
+    background: url("../img/first_bg.jpg") center center/cover no-repeat;
+    padding: 150px 0 135px 0
+}
+
+.promo .promo_header {
+    font-weight: 900;
+    font-size: 60px;
+    text-transform: uppercase;
+    line-height: 30px;
+    color: #fff;
+    text-align: center
+}
+
+.promo .promo_subheader {
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 30px;
+    margin-top: 22px;
+    text-align: center
+}
+
+.promo .promo_descr {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    margin-top: 30px
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 118px auto 0 auto;
+    width: 211px;
+    height: 63px;
+    background: -webkit-gradient(linear, left bottom, left top, from(#1EACC7), to(#4CE2FF));
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    -webkit-box-shadow: inset 0px -4px 0px rgba(0, 0, 0, .12);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, .12);
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, .21)
+}
+
+.reasons {
+    padding: 71px 0 65px 0
+}
+
+.reasons .label {
+    margin: 0 auto;
+    width: 115px;
+    height: 27px;
+    background: #000;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    mix-blend-mode: normal
+}
+
+.reasons .reasons_header {
+    margin-top: 35px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222
+}
+
+.reasons .reason_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 35px;
+    min-height: 180px
+}
+
+.reasons .reason_block .reason_round {
+    width: 116px;
+    height: 116px;
+    background: #1eacc7;
+    border-radius: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.reasons .reason_block .reason_subheader {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1eacc7
+}
+
+.reasons .reason_block .reason_descr {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #000;
+    width: 350px
+}
+
+/*# sourceMappingURL=style.css.map */
